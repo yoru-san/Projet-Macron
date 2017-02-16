@@ -16,6 +16,13 @@ namespace ProjetMacron
         {
             _numero = num;
             _texte = text;
+            _consq = 0;
+        }
+
+        public int selectChoix()
+        {
+            return _consq;
+
         }
         
     }
